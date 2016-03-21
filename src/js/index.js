@@ -66,7 +66,7 @@ var sadie = new Dog({
 
 var moonshine = new Dog({
   color: "blue-red"
-});
+})
 var atticus = new Dog();
 
 
