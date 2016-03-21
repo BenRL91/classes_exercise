@@ -5,6 +5,7 @@
 // 		if (qualities.hungry === undefined){this.hungry = true;
 // 		}else{this.hungry = qualities.hungry;}
 // 		this.owner = undefined;
+// 		console.log(this);
 //   };
 // };
 
@@ -21,6 +22,7 @@ export class Dog {
 			hungry: DEFAULT_HUNGRY,
 			owner: DEFAULT_OWNER
 		}, qualities);
+		// console.log(this.qualities)
 
 		var {status, color, hungry, owner} = this.qualities;
 		this.status = status;
